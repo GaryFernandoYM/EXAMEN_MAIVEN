@@ -13,8 +13,8 @@ public class App
     
       //Obj.impuestoAutos();
      //licar1hasta20();
-     //Obj.numerosperfectos();
-     System.out.println(Obj.potencia(3, 5));
+     Obj.numerosperfectos();
+     //System.out.println(Obj.potencia(3, 5));
      
     }
 }
