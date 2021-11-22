@@ -22,13 +22,13 @@ static LeerTeclado objTec=new LeerTeclado();
         clave =objTec.leer(0, "ingresa la clave del auto: ");
         if (clave > 0 && clave<4){
             if (clave ==1){
-                impuesto = precio * 0.10f; 
+                impuesto = precio * 0.12f; 
                 categoria1 = categoria1 + impuesto;
                 total = total + impuesto;
             System.out.println("el impuesto a pagar por el auto: "+n+" es s/: "+impuesto);
             }
             if (clave ==2){
-                impuesto = precio * 0.07f; 
+                impuesto = precio * 0.08f; 
                 categoria2 = categoria2 + impuesto;
                 total = total + impuesto;
             System.out.println("el impuesto a pagar por el auto: "+n+" es s/: "+impuesto);
