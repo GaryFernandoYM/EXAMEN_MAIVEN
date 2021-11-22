@@ -12,8 +12,8 @@ public class App
     ResolucionExamen Obj=new ResolucionExamen();
     
       //Obj.impuestoAutos();
-     //licar1hasta20();
-     Obj.numerosperfectos();
+    Obj.TMultiplicar1hasta20();
+     //Obj.numerosperfectos();
      //System.out.println(Obj.potencia(3, 5));
      
     }
